@@ -1,5 +1,5 @@
 [package]
-name = "contracts_project"
+name = "certificate"
 version = "0.0.0"
 edition = "2021"
 publish = false
