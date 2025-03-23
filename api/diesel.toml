@@ -1,0 +1,11 @@
+[print_schema]
+file = "src/schema.rs"
+
+[migration_directory]
+path = "migrations"
+
+[database]
+# Option A: specify your database URL directly
+# url = "postgres://username:password@localhost/my_database"
+
+# OR Option B: rely on an environment variable named DATABASE_URL
