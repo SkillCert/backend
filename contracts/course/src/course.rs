@@ -123,7 +123,6 @@ impl CourseContract {
 
         let institution_client = InstitutionClient::new(&env, institution_contract_id);
         
-        // Use the helper method to check if institution is verified
         if !institution_client.is_verified(1) {
             panic_with_error!(&env, Error::InstitutionNotVerified);
         }
